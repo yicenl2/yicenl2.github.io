@@ -182,7 +182,8 @@ blockquote {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    // font-family: monospace;
+    font-family: 'Open Sans', sans-serif;
 
     p {
       display: inline-block;
@@ -833,6 +834,8 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
 }
 
 // Transitioning Themes
