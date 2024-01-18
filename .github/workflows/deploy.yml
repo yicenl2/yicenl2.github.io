@@ -3,12 +3,14 @@ name: Deploy site
 on:
   push:
     branches:
-      - master
-      - main
+      - editor
+      # - master
+      # - main
   pull_request:
     branches:
-      - master
-      - main
+      - editor
+      # - master
+      # - main
   workflow_dispatch:
 
 permissions:
