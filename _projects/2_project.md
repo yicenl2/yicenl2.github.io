@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
+title: Food
 description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+img: assets/img/food.jpg
 importance: 2
-category: work
+# category: work
 giscus_comments: true
 ---
 

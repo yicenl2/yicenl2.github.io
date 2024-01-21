@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
+title: Life
 description: a project that redirects to another website
-img: assets/img/7.jpg
+img: assets/img/life.JPG
 redirect: https://unsplash.com
 importance: 3
-category: work
+# category: work
 ---
 
 Every project has a beautiful feature showcase page.

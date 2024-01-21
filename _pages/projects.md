@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Research
-permalink: /research/
-description: A growing collection of your cool projects.
+title: Blog
+permalink: /albums/
+description: Sharing some interesting thoughts & photographs.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 4
+# display_categories: [work, fun]
 horizontal: false
 ---
 

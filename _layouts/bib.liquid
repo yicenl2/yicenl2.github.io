@@ -43,6 +43,8 @@
     <div class="title">
       {% if entry.url %}
         <a href="{{ entry.url }}" >{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
       {% endif %}
     </div>
     <!-- Author -->
@@ -142,6 +144,9 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% if entry.type == 'conference' %}
+      {% capture entrytype %}<em>{{entry.name}}</em> <br/> <em>{{entry.address}}</em>{% endcapture %}
+    {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
@@ -173,9 +178,9 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">View PDF</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">View PDF</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
@@ -210,6 +215,13 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if entry.recording %}
+        {% if entry.recording contains '://' %}
+          <a href="{{ entry.recording }}" class="btn btn-sm z-depth-0" role="button">Watch Recording</a>
+        {% else %}
+          <a href="{{ entry.recording | prepend: '/assets/video/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Watch Recording</a>
+        {% endif %}
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

@@ -3,6 +3,7 @@ layout: about
 title: Home
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: "Ph.D. Student"
 
 profile:
   align: right
@@ -19,9 +20,11 @@ profile:
 # social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in Environmental Engineering at the [University of Illinois at Urbana-Champaign](https://illinois.edu) (UIUC), under the supervision of Prof. [Nicole Riemer](https://www.atmos.illinois.edu/~nriemer/).
+<span class="font-weight-bold"> Hi there! </span> I'm Yicen (奕岑, Yì-cén), and this is my digital space where I share my passions, experiences, and journey. Whether you found this site intentionally or by chance, I'm happy to have you here :)
 
-I am passionate about learning and exploring the growth and formation fo atmospheric aerosol particles. My work focuses on atmospheric chemistry, aerosol modeling, clouds and climate.
+<span class="font-weight-bold"> About me: </span> I am currently pursuing a Ph.D. in Environmental Engineering at the [University of Illinois at Urbana-Champaign](https://illinois.edu), advised by Prof. [Nicole Riemer](https://www.atmos.illinois.edu/~nriemer/). My research interests are atmospheric chemistry, aerosol modeling, clouds and climate, data science, high-performance computing.
+
+<span class="font-weight-bold"> Thank you for visiting! </span> I appreciate you taking the time to explore my personal website. Wishing you a wonderful day filled with joy and peaceful nights ahead.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
