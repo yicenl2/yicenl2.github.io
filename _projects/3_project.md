@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Life
-description: a project that redirects to another website
+description: is a bag of mixed candies.
 img: assets/img/life.JPG
 redirect: https://unsplash.com
 importance: 3

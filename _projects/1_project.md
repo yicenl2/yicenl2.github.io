@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Travel
-description: a project with a background image
+description: creates lasting memories.
 img: assets/img/travel.JPG
 importance: 1
 # category: work

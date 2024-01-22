@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Food
-description: a project with a background image and giscus comments
-img: assets/img/food.jpg
+description: uplifts my mood.
+img: assets/img/food.JPG
 importance: 2
 # category: work
 giscus_comments: true

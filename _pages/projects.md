@@ -2,9 +2,8 @@
 layout: page
 title: Blog
 permalink: /albums/
-description: Sharing some interesting thoughts & photographs.
-nav: true
-nav_order: 4
+description: Sharing some interesting thoughts & photographs here.
+nav: false
 # display_categories: [work, fun]
 horizontal: false
 ---
