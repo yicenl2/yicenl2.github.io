@@ -2,7 +2,7 @@
 layout: page
 title: Life
 description: is a bag of mixed candies.
-img: assets/img/life.JPG
+img: assets/img/life.jpg
 redirect: https://unsplash.com
 importance: 3
 # category: work

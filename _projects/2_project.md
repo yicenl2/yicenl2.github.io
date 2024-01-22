@@ -2,7 +2,7 @@
 layout: page
 title: Food
 description: uplifts my mood.
-img: assets/img/food.JPG
+img: assets/img/food.jpg
 importance: 2
 # category: work
 giscus_comments: true

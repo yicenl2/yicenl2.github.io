@@ -2,7 +2,7 @@
 layout: page
 title: Travel
 description: creates lasting memories.
-img: assets/img/travel.JPG
+img: assets/img/travel.jpg
 importance: 1
 # category: work
 related_publications: true
