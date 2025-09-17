@@ -1,13 +1,15 @@
 ---
 layout: page
-title: submenus
+title: CV
 nav: true
-nav_order: 8
 dropdown: true
+nav_order: 4
 children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Academy
+    permalink: /assets/pdf/CV-YicenLiu-acad.pdf
+  - title: Data Science
+    permalink: /assets/pdf/CV-YicenLiu-ds.pdf
+  - title: Engineering
+    permalink: /assets/pdf/CV-YicenLiu-eng.pdf
+    
 ---

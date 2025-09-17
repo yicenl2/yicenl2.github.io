@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - master
-      - main
+      #- main
+      - editor
     paths:
       - "assets/**"
       - "_sass/**"
@@ -33,7 +34,8 @@ on:
   pull_request:
     branches:
       - master
-      - main
+      #- main
+      - editor
     paths:
       - "assets/**"
       - "_sass/**"
