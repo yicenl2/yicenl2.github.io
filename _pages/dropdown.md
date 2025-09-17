@@ -3,6 +3,7 @@ layout: page
 title: CV
 nav: true
 dropdown: true
+new_tab: true
 nav_order: 4
 children:
   - title: Academy
